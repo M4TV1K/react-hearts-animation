@@ -1,0 +1,14 @@
+
+.hook-timer {
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    border: 1px solid black;
+    width: fit-content;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 550px) {
+    .hook-timer {
+        padding: 5vw 10vw;
+    }
+}

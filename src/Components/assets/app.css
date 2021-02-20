@@ -1,0 +1,46 @@
+
+html, body {
+    margin: 0;
+    background: darkred;
+}
+
+#love {
+    font-size: 3vw;
+    top: 17.5vh;
+    position: absolute;
+    font-family: monospace;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heart-holder {
+    position: absolute;
+    display: flex;
+}
+
+.heart {
+
+}
+
+#whiteHeart {
+    position: relative;
+}
+
+@media screen and (max-width: 550px) {
+    #love {
+        font-size: 8vw;
+        top: 5vh;
+        z-index: 5;
+        display: none;
+    }
+    .app {
+        flex-flow: column nowrap;
+    }
+}
+

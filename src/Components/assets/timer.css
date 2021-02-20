@@ -1,0 +1,15 @@
+
+.timer {
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    width: fit-content;
+    background: black;
+    color: white;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 550px) {
+    .timer {
+        padding: 5vw 10vw;
+    }
+}
